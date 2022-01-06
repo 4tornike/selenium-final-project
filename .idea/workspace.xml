@@ -12,14 +12,6 @@
       <change afterPath="$PROJECT_DIR$/../git-day-3-github-homework-clone/git-day-3-github-homework" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium project clone/selenium-homework" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium projects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/finalProjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/finalProjectTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../user1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../user2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
@@ -31,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/finalProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/finalProjectTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="TestNG.finalProjectTest">
+  <component name="RunManager" selected="TestNG.finalProjectTest.task3">
     <configuration name="finalProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-final-project" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="finalProjectTest.task3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-final-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="finalProjectTest" />
+      <option name="METHOD_NAME" value="task3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.finalProjectTest.task3" />
         <item itemvalue="TestNG.finalProjectTest" />
         <item itemvalue="TestNG.finalProjectTest.task2" />
         <item itemvalue="TestNG.finalProjectTest.register" />
@@ -114,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641382685482</updated>
       <workItem from="1641382707354" duration="619000" />
-      <workItem from="1641384406496" duration="11425000" />
+      <workItem from="1641384406496" duration="11590000" />
+      <workItem from="1641485133773" duration="4545000" />
     </task>
     <servers />
   </component>
@@ -126,21 +135,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/finalProjectTest.java</url>
-          <line>25</line>
+          <line>28</line>
           <properties class="finalProjectTest" method="register">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/finalProjectTest.java</url>
-          <line>54</line>
-          <properties class="finalProjectTest" method="task2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
