@@ -105,25 +105,17 @@ public class finalProjectTest {
 //        form.submit();
         WebElement submit = driver.findElement(By.id("button-review"));
         submit.click();
-        WebElement item = driver.findElement(By.id("cart-total"));
-        String beforeAdded = item.getText();
         WebElement addToCart = driver.findElement(By.id("button-cart"));
         addToCart.click();
-        String afterAdded = item.getText();
-        if(!beforeAdded.equalsIgnoreCase(afterAdded)) {
-            System.out.println("product added succesfully");
-        } else {
-            System.out.println("product does not added");
-        }
         WebElement shoppingCart = driver.findElement(By.xpath("//span[text()='Shopping Cart']"));
         shoppingCart.click();
         WebElement quantity = driver.findElement(By.xpath("//div[@class='input-group btn-block']/input"));
         String expectedQuantity = quantity.getAttribute("value").toString();
         WebElement total = driver.findElement(By.xpath("//strong[text()='Total']/parent::td/following-sibling::td"));
         String expectedTotal = js.executeScript("return arguments[0].innerHTML",total).toString();
+        WebElement item = driver.findElement(By.id("cart-total"));
         String actualTotal = item.getText().substring(12);
         String actualQuantity = item.getText().substring(0,1);
-        System.out.println(expectedQuantity + " " + actualQuantity);
         if(expectedQuantity.equalsIgnoreCase(actualQuantity)) {
             System.out.println("quantity is same");
             if(expectedTotal.equalsIgnoreCase(actualTotal)) {
