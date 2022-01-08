@@ -17,11 +17,22 @@ public class finalProjectTest {
 
     WebDriver driver;
 
-    public finalProjectTest() {
+    @BeforeTest
+    @Parameters("browser")
 
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+    public void setup(@Optional String browser) {
+        if (browser.equalsIgnoreCase("edge")) {
+        WebDriverManager.edgedriver().setup();
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
+        } else if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+        }
+        else {
+            System.out.println("no browsers found");
+        }
     }
 
     @Test
