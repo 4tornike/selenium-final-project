@@ -265,6 +265,7 @@ public class finalProjectTest {
         } else {
             System.out.println("its not same date");
         }
+        driver.quit();
     }
 
 }
